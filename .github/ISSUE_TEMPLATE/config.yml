@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Plan Maestro
+    url: https://github.com/POLYGON/polygonplus/blob/main/docs/plan-maestro.md
+    about: Documento fundacional de estrategia (north star, arquitectura, roadmap).
