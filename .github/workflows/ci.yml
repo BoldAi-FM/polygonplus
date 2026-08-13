@@ -12,9 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # La versión de pnpm se toma del campo "packageManager" del package.json
+      # raíz (pnpm@9.12.0). No la fijamos aquí: declararla en dos lados hace que
+      # action-setup@v4 aborte con ERR_PNPM_BAD_PM_VERSION.
       - uses: pnpm/action-setup@v4
-        with:
-          version: 9
 
       - uses: actions/setup-node@v4
         with:
