@@ -7,6 +7,8 @@ Toda decisión y todo proceso deja rastro aquí. Regla de oro: **ninguna tarea s
 - [`plan-maestro.md`](plan-maestro.md) — documento fundacional (v3, vigente): north star, diagnóstico, arquitectura, roadmap. **Fuente de verdad de la estrategia.**
 - [`modelo-operativo.md`](modelo-operativo.md) — modelo operativo objetivo: cómo debe operar Polygon, el modelo que la plataforma va a imponer.
 - [`studio-diagnostico.md`](studio-diagnostico.md) — diagnóstico del "PolygonPlus Studio" (trabajo previo): qué se reutiliza y cómo se integra.
+- [`studio-audit.md`](studio-audit.md) — auditoría técnica de los repos del Studio (backend + frontend).
+- [`studio-security-hardening.md`](studio-security-hardening.md) — spec as-built del hardening de seguridad del Studio.
 - [`roadmap.md`](roadmap.md) — fases y estado de avance.
 - [`data-model.md`](data-model.md) — modelo de datos (esquema de Supabase).
 - [`adr/`](adr/) — Architecture Decision Records: cada decisión técnica importante, versionada.
